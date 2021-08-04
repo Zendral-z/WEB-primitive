@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+body {
+    background-color: #FAFAFA;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+/* 
+a {
+    text-decoration: none;
+}
+
+.container {
+    padding-top: 5%;
+}
+
+.row {
+    background-color: white;
+    width: 1178px;
+    height: 510px;
+    margin-left: -30px;
+}
+
+.img-logo {
+    padding-top: 46px;
+    margin-bottom: 90px;
+}
+
+.img-logo-header {
+    text-align: center;
+}
+
+.input-style {
+    background: #F2F2F2; 
+    border-color: #F2F2F2; 
+    font-size: 12px; 
+    font-family: 'Poppins', sans-serif; 
+    color: #7E7D7D;
+    padding-left: 18px;
+}
+
+.form-input {
+    text-align: center;
+} 
+
+label {
+    font-family: 'Poppins', sans-serif; 
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.button-submit {
+    text-align: center;
+}
+
+.group-input {
+    margin-left: 90px;
+}
+
+.link-forgot-password {
+    color: #7E7D7D;
+    transition: 1s;
+}
+
+.link-forgot-password:hover {
+    color: #3BCEB1;
+}
+
+.text-register {
+    font-size: 12px;
+    font-weight: 500;
+    padding-top: 15px;
+    color: #7E7D7D;
+}
+
+.link-register {
+    color: black;
+    transition: 1s;
+}
+
+.link-register:hover {
+    text-decoration: none;
+    color: #3BCEB1;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+body {
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* .card-body {
+    background: black;
+} */
+
+.input-style {
+    background: #F2F2F2; 
+    border-color: #F2F2F2; 
+    font-size: 12px; 
+    font-family: 'Poppins', sans-serif; 
+    color: #7E7D7D;
+    margin-left: -20px;
+    height: 48px;
+    font-weight: 500;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif; 
+    color: #7E7D7D;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.poppins:hover {
+    font-family: 'Poppins', sans-serif; 
+    color: orange;
+    cursor: pointer;
+}
+
+.link-forgot-password {
+    color: #7E7D7D;
+    transition: 0.5s;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.rememberme {
+    float: left;
+}
+
+.link-forgot-password:hover {
+    color:orange;
+}
+
+.link-daftar {
+    color: black;
+    transition: 0.5s;
+    font-weight: 500;
+}
+
+.link-daftar:hover {
+    color: orange;
+}
+
+.poppins-bold {
+    font-family: 'Poppins', sans-serif; 
+    font-weight: bold;
+}
+
+#btn-login {
+    border-color:orange; 
+    background: orange; 
+    font-size: 14px; 
+    color: #FFFFFF; 
+    width: 139px; 
+    height: 48px;
+}
+
+.media-left {
+    margin-left: 120px;
+}
+
+@media screen and (max-width: 600px) {
+    .media-left {
+        margin-left: 10px;
+        width: 100%;    
+    }
+    
+    .img-banner {
+        display: none;
+    }
+
+    .rememberme {
+        margin-left: -16px;
+        float: left;
+    }
+
+
+  }
+
+@media screen and (min-device-width: 576px) and (max-device-width: 900px) {
+    .media-left {
+        margin-left: 10px;
+        width: 100%;    
+    }
+
+    .input-group {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .link-forgot-password {
+        margin-right: 30px;
+    }
+
+    .rememberme {
+        float: left;
+    }
+
+    #btn-login {
+        margin-left: -10px;
+    }
+
+    .mt-3 {
+        margin-left: -10px;
+    }
+    
+    .img-banner {
+        display: none;
+    }
+
+}
+.logo-atas{
+    width: 100px;
+    right: 50px;
+}
